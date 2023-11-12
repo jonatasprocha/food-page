@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li { 
+    list-style: none;;
+}
+
+header {
+    background-color: #fbf7f1;
+}
+
+.header-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px 10px 70px;
+    background-color: #f7efe4;
+}
+
+.header-nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-nav li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #eb4f37;
+    font-family: 'Varela Round', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+}
+
+.header-nav li a:hover { 
+    background-color: #eb4f37;
+    color: white;
+}
+
+.container-d {
+    margin: 10px 20px 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.receita {
+    position: relative;
+    margin: 10px 5px 10px 5px;
+}
+
+.receita p {
+    position: absolute;
+    bottom: .7rem;
+    left: 2rem;
+    color: rgb(255, 255, 255);
+    font-size: 15pt;
+    font-family: 'Nunito', sans-serif;
+}
+
+.receita span {
+    position: absolute;
+    right: .8rem;
+    top: .8rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0.3rem;
+    border-radius: 0.6rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 10pt;
+}
+.receita img {
+    border-radius: 10px;
+    width: 480px;
+}
+
+.faixa {
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
